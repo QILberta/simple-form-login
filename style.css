@@ -1,0 +1,103 @@
+/* Reset & Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /*background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);*/
+  background-image: url("image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Container */
+.login-container {
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Judul */
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Input Group */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #555;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #2575fc;
+  box-shadow: 0 0 0 3px rgba(37, 117, 252, 0.2);
+}
+
+/* Tombol Submit */
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.login-form button:hover {
+  opacity: 0.9;
+}
+
+/* Link Lupa Password */
+.remember{
+  display:flex;
+  justify-content: space-between;
+}
+
+.remember  label{
+  font-size: 16px;
+}
+
+.remember .forget_password {
+  font-size: 16px;
+}
+
+
+.daftar{
+  display: block;
+  font-size:14px;
+}
